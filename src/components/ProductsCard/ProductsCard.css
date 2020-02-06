@@ -1,0 +1,83 @@
+.card__item{
+    position: absolute;
+    z-index: 9999;
+    background: #0ad4fa96;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card__details{
+    width: 100%;
+}
+
+.card__points{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card__points img{ width: 30px;}
+
+.card__points h3{
+    margin: 0;
+    margin-right: 20px;
+}
+
+.card__item button{
+
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 60%;
+    border-radius: 30px;
+    margin: 0 auto;
+    background: #fff;
+    z-index: 9999;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+
+.card__inactive{
+
+    background: #000000d1!important;
+
+}
+
+.card__active{
+
+    background: #0ad4fad1!important;
+
+}
+
+.alert__points{
+    color:#FFF;
+}
+
+.success__points{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    color: #FFF;
+
+}
+.success__points img{
+
+    width: 60px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.success__points h1{
+    font-size: 42px;
+    margin: 0;
+}

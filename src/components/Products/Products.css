@@ -1,0 +1,87 @@
+.products{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,300px));
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.products__item{
+    background: #FFF;
+    cursor: pointer;
+    height: 300px;
+    position: relative;
+}
+
+.products__title{
+  position: absolute;
+    text-align: left;
+    border-style: solid;
+    width: 70%;
+
+    border-width: 0.8px 0px 0px;
+    padding: 20px;
+
+    border-color: #D9D9D9;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.products__item figure{
+
+    height: 50%;
+    position: relative;
+    display: flex;
+}
+
+.products__detais{
+      position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.products__title h3{
+  font-size: 16px;
+}
+
+
+.products__default{ width: 75%!important;}
+.products__title p, .products__title h3{
+    margin: 0px;
+}
+
+.products img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* React Transition */
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-appear {
+  opacity: 1;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+/* React Transition */
