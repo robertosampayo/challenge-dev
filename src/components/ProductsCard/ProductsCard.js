@@ -125,16 +125,7 @@ const ProductsCard = ({ product }) => {
 
                 }
 
-                { redeem &&
 
-                    <div className="card__details">
-
-                        <div className="success__points "><h3>You have now </h3> <h1>{user.points}</h1> <img src={money}></img></div>
-
-
-                    </div>
-
-                }
 
                 </div>
         }

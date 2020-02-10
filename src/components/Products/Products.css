@@ -85,3 +85,27 @@
 }
 
 /* React Transition */
+
+.success{
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%,-50vh)!important;
+  z-index: 999;
+  width: 400px;
+  height: 200px;
+  background: #0AD4FA!important;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  pointer-events: none;
+  cursor:pointer;
+  opacity: 0;
+  -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.88);
+  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.88);
+}
+/* .scale-in-center2{ animation:scale-in-center2 1s cubic-bezier(.25,.46,.45,.94) both; -webkit-animation:scale-in-center2 1s cubic-bezier(.25,.46,.45,.94) both; } */
+
+
+/* @keyframes scale-in-center2{0%{transform:scale(0); transform: translate(-50%,-50vh); opacity:1}100%{transform:scale(1); transform: translate(-50%,-50vh); opacity:1}} */
